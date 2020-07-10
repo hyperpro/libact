@@ -6,7 +6,7 @@ from setuptools import setup, Extension
 import sys
 
 BUILD_HINTSVM = int(os.environ.get("LIBACT_BUILD_HINTSVM", 1))
-BUILD_VARIANCE_REDUCTION = int(os.environ.get("LIBACT_BUILD_VARIANCE_REDUCTION", 1))
+BUILD_VARIANCE_REDUCTION = int(os.environ.get("LIBACT_BUILD_VARIANCE_REDUCTION", 0))
 
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
